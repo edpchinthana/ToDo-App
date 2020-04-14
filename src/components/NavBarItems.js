@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class NavBarItem extends Component{
+class NavBarItems extends Component{
     render(){
         return(
             <li className="nav-item active">
@@ -9,4 +9,4 @@ class NavBarItem extends Component{
         )
     }
 }
-export default NavBarItem;
+export default NavBarItems;

@@ -5,6 +5,7 @@ import './App.css';
 import LoginSignup from './pages/LoginSignup';
 import About from './pages/About';
 import Home from './pages/Home';
+import ToDoList from './pages/TodoList';
 
 //Importing components
 import NavBar from './components/NavBar';
@@ -28,6 +29,11 @@ function App() {
             exact={true}
             path = "/about"
             component = {About}
+          />
+          <Route
+            exact={true}
+            path = "/ToDoList"
+            component = {() => <ToDoList username="Pasindu"/>}
           />
       </Router>
     </div>

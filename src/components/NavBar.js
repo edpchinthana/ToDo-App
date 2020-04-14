@@ -5,7 +5,8 @@ import NavBarItems from './NavBarItems';
 const navItems = [
     {name : "Home",link:"/"},
     {name:"Login", link:"/loginSignup"},
-    {name : "About",link:"/about"}
+    {name : "About",link:"/about"},
+    {name: "ToDoList", link:"/ToDoList"}
 ]
 
 class NavBar extends Component{
