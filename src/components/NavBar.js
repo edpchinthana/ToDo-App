@@ -3,9 +3,9 @@ import image from '../res/images/logo.png';
 import NavBarItems from './NavBarItems';
 
 const navItems = [
-    {name : "Home",link:"#"},
-    {name : "About",link:"#"},
-    {name : "Contact",link:"#"}
+    {name : "Home",link:"/"},
+    {name:"Login", link:"/loginSignup"},
+    {name : "About",link:"/about"}
 ]
 
 class NavBar extends Component{
