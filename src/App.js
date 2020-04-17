@@ -9,7 +9,6 @@ import ToDoList from './pages/TodoList';
 
 //Importing components
 import NavBar from './components/NavBar';
-
 function App() {
   return (
     <div>

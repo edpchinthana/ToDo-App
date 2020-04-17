@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import SingleToDo from '../components/SingleToDo'
-
-let todoArray;
+import DatabaseConnection from '../DatabaseConnection.js'
+//const sqlite3 = require('sqlite3').verbose();
+//import sqlite3 from 'sqlite3';
+//const sqlite3 = require('sqlite3').verbose();
+//let db = new sqlite3.Database(':memory:');
 class ToDoList extends Component{
+    //db = null
     constructor(props){
         super(props)
-        
+        //this.db = new DatabaseConnection(props.username)
         this.state = {
             username : props.username,
             hasToBeDone:0,
